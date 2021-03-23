@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: didox-nodejs
+  labels:
+    app: label-pod-didox-nodejs
+spec:
+  containers:
+    - name: container-pod-nodejs
+      image: didox/validador-cpf-nodejs-turma-devops
+      ports:
+        - containerPort: 3000
