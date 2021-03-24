@@ -7,5 +7,5 @@ spec:
   selector:
     app: lable-pod-java
   ports:
-    - port: 3000
+    - port: 8080
       nodePort: 30001 #até 32767
